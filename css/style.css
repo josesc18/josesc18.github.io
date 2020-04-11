@@ -1,0 +1,38 @@
+:root{
+    --azul:#085B9C;
+    --negro:#2F2F2F;
+    --negro-claro:#383838;
+    --fondo:#F3F3F3;
+    --cuerpo-card:#E1E1E1;
+}
+.bg-negro{
+    background-color: var(--negro);
+}
+/*BANNER*/
+#Banner{
+    width: 100%;
+    height: 300px;
+    background-color: var(--negro);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#Banner .cont-text{
+    position: absolute;
+    top:15%;
+    left: 28%;
+    color:#fff;
+    text-align: center;
+}
+#Banner .cont-text h4{
+    margin-top: 3%;
+}
+#Banner .cont-text #bn-contac{
+    color:#fff;
+    margin-top: 5%;
+    padding: 5px 25px;
+}
+#Banner svg{
+    position: absolute;
+    bottom: 45%;
+    
+}

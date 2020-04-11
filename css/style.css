@@ -11,15 +11,15 @@
 /*BANNER*/
 #Banner{
     width: 100%;
-    height: 300px;
+    height: 250px;
     background-color: var(--negro);
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 #Banner .cont-text{
     position: absolute;
-    top:15%;
-    left: 28%;
+    top:10vh;
+    left: 28vw;
     color:#fff;
     text-align: center;
 }

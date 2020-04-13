@@ -39,5 +39,18 @@
 }
 #ctc-me{
     background-color: #383838;
+    padding-bottom: 3%;
 }
-
+#inputEmail4,#inputText4,#exampleFormControlTextarea1{
+    background-color: transparent;
+    border-radius: 2px;
+    color: #fff;
+}
+footer{
+    background-color: var(--negro);
+    padding-top: 2.5%;
+    padding-bottom: 1%;
+}
+footer .container img{
+    margin: 0 2.5% 2.5% 0;
+}

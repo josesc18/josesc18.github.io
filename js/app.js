@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-    alert("trabajando con Mallqui :v");
+    alert("trabajando con Jose :v");
     
 
 });

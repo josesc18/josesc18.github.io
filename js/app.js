@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
-    alert("Hola we :v");
+    alert("trabajando con Mallqui :v");
+    
 
 });

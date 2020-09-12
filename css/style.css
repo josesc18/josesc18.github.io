@@ -18,8 +18,8 @@
     background-repeat: no-repeat;
 }
 #Banner .cont-text{
+    marging-top:6%;
     position: absolute;
-    top:10vh;
     left: 28vw;
     color:#fff;
     text-align: center;

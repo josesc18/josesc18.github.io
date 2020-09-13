@@ -20,7 +20,7 @@
 #Banner .cont-text{
     margin-top:6%;
     position: absolute;
-    left: 28vw;
+    left: 32vw;
     color:#fff;
     text-align: center;
 }
@@ -30,7 +30,7 @@
 }
 @media only screen and (max-width: 600px){
     #Banner .cont-text{
-    left: 10vw;}
+    left: 9vw;}
 }
 #Banner .cont-text h4{
     margin-top: 3%;

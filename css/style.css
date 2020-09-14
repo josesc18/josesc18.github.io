@@ -20,19 +20,25 @@
 #Banner .cont-text{
     margin-top:6%;
     position: absolute;
-    left: 31vw;
+    left: 30.5vw;
     color:#fff;
     text-align: center;
 }
 @media only screen and (max-width: 770px){
     #Banner .cont-text{
+    margin-top:3%;
     left: 20vw;}
 }
 @media only screen and (max-width: 600px){
     #Banner .cont-text{
     left: 9vw;}
 }
-#Banner .cont-text h4{
+@media only screen and (max-width: 500px){
+    #Banner .cont-text{
+    margin-top: 0;
+    left: 3vw;}
+}
+#Banner .cont-text h5{
     margin-top: 3%;
 }
 #Banner .cont-text #bn-contac{
@@ -43,11 +49,23 @@
 #Banner svg{
     position: absolute;
     bottom: 45%;
-    
 }
 #ctc-me{
     background-color: #383838;
     padding-bottom: 3%;
+}
+.card-img-top:hover{
+    -webkit-transition:all 1.9s ease-in-out;
+    -moz-transition:all 1.9s ease-in-out;
+    -o-transition:all 1.9s ease-in-out;
+    -ms-transition:all 1.9s ease-in-out;
+    transition: all 1.9s ease-in-out;
+
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
 }
 #inputEmail4,#inputText4,#exampleFormControlTextarea1{
     background-color: transparent;

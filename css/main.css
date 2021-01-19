@@ -1,0 +1,82 @@
+.banner{
+    background: url(../img/fondo.jpg) no-repeat;
+    background-size: cover;        
+}
+.text-tmp-primary{
+    color:var(--tmp-primary);
+}
+.text-service{
+    font-size: 150px;
+}
+/******************
+Iconos de Redes Sociales
+*******************/
+.redes{
+    font-size: 40px;
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+}
+.redes:hover{
+    color: var(--primary);
+}
+
+.card-contacto{
+    background: #FFFFFF !important;
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.2)!important;
+}
+
+/*Loader*/
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 20%;
+    margin-left: 45%;
+  }
+  @media (max-width: 700px){
+    .lds-facebook{
+        margin-top: 40%;
+    }
+  }
+  @media (max-width:500px){
+    .lds-facebook{
+        margin-top: 50%;
+    }
+  }
+  @media (max-width: 300px){
+    .lds-facebook{
+        margin-top: 70%;
+    }
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: var(--tmp-primary);
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+      

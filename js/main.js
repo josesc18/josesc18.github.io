@@ -1,14 +1,4 @@
-$(document).ready(function(){
-    $('main').hide();
-    $(window).on('load',function(){
-            $('.lds-facebook').hide();
-            $('main').show();
-        }
-    )
-});
-
 let service_card = $('.service-card');
-
 
 if (service_card!= null || service_card!=false || service_card!=""){
 
